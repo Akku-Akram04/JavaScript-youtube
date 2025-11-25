@@ -1,4 +1,7 @@
-// String interpolation is a technique used in programming to embed expressions or variables directly into strings in a concise and readable way. Instead of manually concatenating strings with + or similar operators, you use a special syntax that evaluates the expression and inserts the result into the string.
+// String interpolation is a technique used in programming to embed expressions or variables directly
+// into strings in a concise and readable way. Instead of manually concatenating strings with + or
+// similar operators, you use a special syntax that evaluates the expression and inserts the result into
+//  the string.
 
 // String interpolation in JavaScript is done using Template Literals (also called template strings), introduced in ES6 (ECMAScript 2015).
 
