@@ -1,4 +1,5 @@
 // shallow copy
+//----------------------------------------------------------------------------------------//
 const array = {
   name: " Akram",
   age: 26,
@@ -20,8 +21,8 @@ const shallowCopyArray = [...numberArray];
 // console.log(shallowCopyArray);
 // console.log(numberArray);
 
-// ---------------------------------------------------------------------------------------//
 // Deep copy
+// ---------------------------------------------------------------------------------------//
 const array2 = {
   name: "Akram",
   age: 29,
@@ -36,8 +37,6 @@ deepCopy.address.city = "Noida";
 deepCopy.address.state = "Uttar Pradesh";
 
 console.log(deepCopy);
-
-//----------------------------------------------------------------------------------------//
 
 const number = [1, 2, 3, 4, 5];
 // console.log(number);
