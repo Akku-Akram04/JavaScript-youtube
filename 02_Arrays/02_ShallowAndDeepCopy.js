@@ -9,7 +9,7 @@ console.log(array);
 
 array.address.city = "Noida";
 array.address.state = "Uttar Pradesh";
-const shallowCopy = { ...array };
+const shallowCopy = { ...array }; //spread operator
 console.log(shallowCopy);
 
 const numberArray = [1, 23, 4, 5];
@@ -38,6 +38,7 @@ deepCopy.address.state = "Uttar Pradesh";
 
 console.log(deepCopy);
 
+// deep copy with array
 const number = [1, 2, 3, 4, 5];
 // console.log(number);
 
