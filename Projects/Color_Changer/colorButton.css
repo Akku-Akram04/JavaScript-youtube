@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-color: #212121; */
+}
+body,
+h1 {
+  margin-top: 50px;
+  text-align: center;
+  position: relative;
+}
+
+.canvas {
+  margin: 200px 0 200px 0;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 120px;
+  width: 120px;
+  border: 2px solid black;
+  box-shadow: 0px 6px 18px rgb(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  transform: translateY(10px);
+}
+
+#grey {
+  background-color: grey;
+}
+
+#white {
+  background-color: white;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#yellow {
+  background-color: yellow;
+}

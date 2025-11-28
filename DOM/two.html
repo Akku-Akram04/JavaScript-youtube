@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body style="background-color: #212121; color: #ffff"></body>
+
+  <script>
+    const newElement = (color, color2, classname, specialID, text) => {
+      const div = document.createElement("div");
+      console.log(div);
+      div.className = classname;
+      div.id = specialID;
+      div.style.backgroundColor = color;
+      div.style.color = color2;
+      div.style.padding = "12px";
+      const addText = document.createTextNode(text);
+      div.appendChild(addText);
+      document.body.appendChild(div);
+    };
+
+    newElement("red", "white", "red", "redID", "I am red");
+
+    newElement("blue", "white", "blue", "blueID", " I am blue");
+    newElement("orange", "white", "orange", "orangeID", "I am orange");
+    newElement("#800020", "white", "burgandi", "burgandiID", "I am Burgundy ");
+    newElement("#F5F5DC", "black", "beige", " beigeID", " I am Beige");
+  </script>
+</html>

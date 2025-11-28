@@ -31,6 +31,6 @@ const city = "Darjeeling";
 const getName = new String("Akram");
 
 console.log(getName.length);
-console.log(getName.toUpperCase());
+console.log(getName.toUpperCase()); // A new object is created
 
 console.log(getName);
